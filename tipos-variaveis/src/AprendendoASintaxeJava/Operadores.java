@@ -1,3 +1,5 @@
+package AprendendoASintaxeJava;
+
 public class Operadores {
 
     public static void main(String[] args) {
@@ -10,8 +12,7 @@ public class Operadores {
         // - -> Subtração
         // * -> Multiplicação
         // / -> Divisão
-
-        // Operadores Aritmeticos
+        // % -> Resto da divisão
 
         int n1 = 5, n2 = 2;
         String nome = "Renato", sobrenome = " Zanotelli";
@@ -44,7 +45,7 @@ public class Operadores {
         System.out.println("Unario Bool ~: " + !unarioBool);
         System.out.println();
 
-        // Operadores De Incremento
+        // peradores De Incremento
 
         int incremento = 5;
         System.out.println("incremento padrão: " + incremento);
@@ -87,7 +88,7 @@ public class Operadores {
         System.out.println();
 
 
-        // Operadores Relacionais:
+        // peradores Relacionais:
 
         System.out.println("Operador Relacional: " +  a + " é igual a " + b + "? " + (a==b));
         System.out.println("Operador Relacional: " +  a + " é maior que " + b + "? " + (a>b));
